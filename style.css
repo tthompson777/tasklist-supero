@@ -1,0 +1,87 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Geral */
+.padding-left-100 {
+	padding-left: 10%;
+}
+
+.font-roboto {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.jumbotron {
+	background-position: center center;
+	background-color: #e6613c;
+	background-repeat: no-repeat;
+}
+
+.jumbotron h3 {
+	color: #fff;
+}
+
+#todoDetalhes {
+	visibility: hidden;
+}
+
+.list-task-ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.list-task-ul li {
+	font-size: 18px;
+}
+
+.btn-delete {
+	position: absolute;
+	z-index: 1;
+	right: 25px;
+	top: 3px;
+}
+.font-1-6-em {
+	font-size: 1.6em;
+}
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+.margin-top-10 {
+	margin-top: 10px;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.border-0 {
+	border: 0;
+}
+
+.gray-td {
+	color: #000;
+}
+.green-td {
+	color: #009688
+}
+.blue-td {
+	color: #3f51b5;
+}
+
+.btn-close-detalhes {
+	z-index: 10;
+	color: #fff;
+	position: absolute;
+	right: 24px;
+	top: 9px;
+}
+
+.color-white {
+	color: white;
+}
+
+.jumbotron {
+	padding-top: 20px;
+  padding-bottom: 20px;
+}

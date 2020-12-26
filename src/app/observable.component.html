@@ -1,0 +1,16 @@
+<h3>Book Details with Observable</h3>
+<ul>
+  <li *ngFor="let tasks of observableBooks | async" >
+    Id: {{tasks.id}}, Name: {{tasks.name}}
+  </li>
+</ul>
+
+<h3>Book Details after "subscribe" to Observable </h3>
+<ul>
+  <li *ngFor="let tasks of books" >
+    Id: {{tasks.id}}, Name: {{tasks.name}}
+  </li>
+</ul>
+
+<div *ngIf="errorMessage"> {{errorMessage}} </div>
+
